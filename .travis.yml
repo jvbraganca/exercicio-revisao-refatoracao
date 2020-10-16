@@ -5,6 +5,6 @@ branches:
   only:
     - refatoracao
 script: [
-    "g++ -std=c++14 -Wall ./main.cpp ./Empregado.cpp ./Engenheiro.cpp ./Vendedor.cpp -o main",
+    "g++ -std=c++14 -Wall ./Empregado.cpp ./Engenheiro.cpp ./Vendedor.cpp ./main.cpp -o main",
     "./main"
 ]
